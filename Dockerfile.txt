@@ -1,7 +1,4 @@
-FROM python:3.10
-WORKDIR /telegrambot
-COPY requirements.txt .
-RUN pip install -r requirements.txt
-COPY . .
-CMD ["python", "bot.py"]
+This used to be a docker file
+#TODO delete this
+
 
